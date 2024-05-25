@@ -184,7 +184,7 @@ input[type=submit] {
   width: 50%;
   display: inline-block;
 }
-.page-3 .md-content form input[type="text"]{
+.page-3 .md-content form input[type="email"]{
   width: 100%;
   border: 0.5px solid #FFF;
   background: none;
@@ -193,7 +193,7 @@ input[type=submit] {
   border-radius: 20px;
   margin-bottom: 15px;
 }
-.page-3 .md-content form input[type="text"]::placeholder{
+.page-3 .md-content form input[type="email"]::placeholder{
   color: #FFF;
   font-family: 'EuclidCircularAVN-Light';
   font-style: italic;
