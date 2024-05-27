@@ -199,7 +199,16 @@ input[type=submit] {
   color: #FFF;
   padding: 7px 15px 5px;
   border-radius: 20px;
-  margin-bottom: 15px;
+}
+.page-3 .md-content p.error{
+  float: none;
+  display: block;
+  width: 100%;
+  font-size: calc(4px + 0.6vw);
+  font-style: italic;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-weight: 500;
 }
 .page-3 .md-content form input[type="email"]::placeholder{
   color: #FFF;
@@ -217,6 +226,7 @@ input[type=submit] {
   font-family: 'EuclidCircularAVN-Bold';
   font-style: italic;
   font-size: calc(4px + 1vw);
+  margin-top: 15px;
 }
 .md-note p{
   color: #FFF;
@@ -295,7 +305,7 @@ input[type=submit] {
   }
   .page-3 .md-content form input[type='button']{
     display: table;
-    margin: 0 auto;
+    margin: 15px auto 0px auto;
     font-size: calc(10px + 1vw);
   }
   .md-note p{
@@ -315,5 +325,10 @@ input[type=submit] {
   }
   .page-2 .md-content a{
     font-size: calc(10px + 1vw);
+  }
+  .page-3 .md-content p.error{
+    font-size: calc(8px + 0.6vw);
+    text-align: left;
+    margin-bottom: 0px;
   }
 }
