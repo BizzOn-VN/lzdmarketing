@@ -22,7 +22,7 @@ jQuery(document).on("ready",function () {
 	
 });
 
-
+$("#md-popup").fancybox().trigger('click');
 
 new WOW().init();
 

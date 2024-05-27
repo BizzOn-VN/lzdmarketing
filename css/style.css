@@ -10,7 +10,7 @@ body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: calc(10px + 1vw);
+  font-size: calc(12px + 1vw);
   font-family: 'EuclidCircularAVN-Regular';
   color: #111111;
   line-height: 1.5;
@@ -81,7 +81,7 @@ input[type=submit] {
 
 
 .body-1{
- background: linear-gradient(90deg, rgba(254,1,102,1) 50%, rgba(255,102,0,1) 50%);
+ background: linear-gradient(90deg, rgba(255,102,0,1) 50%,rgba(254,1,102,1) 50%);
 }
 .body-2{
   background: #ff6600;
@@ -92,15 +92,15 @@ input[type=submit] {
 .md-title{
   display: table;
   margin: 0 auto;
-  width: 80%;
   padding-top: 10vh;
   margin-bottom: 10vh;
 }
 .md-title h3{
   color: #FFF;
   font-family: 'EuclidCircularAVN-Bold';
-  font-size: calc(20px + 10vw);
-  line-height: 1;
+  font-size: calc(20px + 8vw);
+  line-height: 1.4;
+  text-align: center;
 }
 .md-title p{
   color: #FFF;
@@ -134,10 +134,10 @@ input[type=submit] {
   text-align: center;
   box-shadow: -2px -2px 4px 1px rgba(255,255,255,1);
 }
-.md-content .left-content a{
+.md-content .right-content a{
   color: #fe0166;
 }
-.md-content .right-content a{
+.md-content .left-content a{
   color: #ff6600;
 }
 .md-content .left-content{
@@ -152,16 +152,19 @@ input[type=submit] {
 .page-2 .md-title p{
   background: none;
   padding: 0px;
+  text-align: center;
+  display: block;
 }
 .page-2 .md-title{
   margin-bottom: 30px;
 }
 .page-2 .md-content a{
-  width: 40%;
-  display: inline-block;
+  width: 25%;
+  display: table;
   margin-left: 10%;
   color: #ff6600;
-  margin-top: 0px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
@@ -172,18 +175,22 @@ input[type=submit] {
 .page-3 .md-content{
   width: 80%;
   display: table;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 .page-3 .md-content p{
-  font-size: calc(10px + 5vw);
-  line-height: 1;
   color: #FFF;
   font-weight: 600;
-
+  float: left;
+  width: 30%;
+  margin-bottom: 0px;
 }
 .page-3 .md-content img{
   width: 50%;
   display: inline-block;
+}
+.page-3 .md-content form{
+  float: right;
+  width: 65%;
 }
 .page-3 .md-content form input[type="email"]{
   width: 100%;
@@ -198,6 +205,7 @@ input[type=submit] {
   color: #FFF;
   font-family: 'EuclidCircularAVN-Light';
   font-style: italic;
+  font-size: calc(4px + 1vw);
 }
 .page-3 .md-content form input[type='button']{
   background: #e6eaed;
@@ -208,9 +216,104 @@ input[type=submit] {
   color:  #fe0166;
   font-family: 'EuclidCircularAVN-Bold';
   font-style: italic;
+  font-size: calc(4px + 1vw);
+}
+.md-note p{
+  color: #FFF;
+  font-size: calc(4px + 0.8vw);
+  text-align: right;
+  margin-right: 10%;
+}
+@media screen and (min-width: 768px){
+  .md-title h3{
+    font-size: calc(10px + 5vw);
+  }
+  .md-content img{
+    width: 25%;
+  }
+  .md-content a{
+    width: 25%;
+    font-size: calc(4px + 1vw);
+  }
+}
+.popup-form{
+  display: none;
+  width: 25%;
+  background: #fe0166;
+  color: #FFF;
+  text-align: center;
+}
+.popup-form a{
+  background: #e6eaed;
+  border-radius: 10px;
+  padding: 7px 15px 5px;
+  display: table;
+  margin: 0 auto;
+  line-height: 1;
+  font-family: 'EuclidCircularAVN-Bold';
+  font-style: italic;
+  margin-top: 30px;
+  width: 60%;
+  text-align: center;
+  box-shadow: -2px -2px 4px 1px rgba(255,255,255,1);
+  color: #fe0166;
+  font-size: calc(4px + 1vw);
 }
 @media screen and (max-width: 767px){
   .page-main{
     height: 100vh;
+  }
+  .page-2 .md-content a{
+    width: 50%;
+  }
+  body{
+    font-size: calc(4px + 1vw);
+  }
+  .page-3 .md-content p{
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: calc(10px + 5vw);
+    text-align: center;
+  }
+  .page-3 .md-content form{
+    float: none;
+    width: 100%;
+  }
+  .page-3 .md-title h6{
+    font-size: calc(10px + 3vw);
+    text-align: center;
+    line-height: 1.2;
+    padding: 0px 10%;
+  }
+  .page-3 .md-content form input[type="email"]::placeholder{
+    font-size: calc(10px + 1vw);
+  }
+  .page-3 .md-content form input[type="email"]{
+    font-size: calc(10px + 1vw);
+    padding: 10px 15px 7px;
+  }
+  .page-3 .md-content form input[type='button']{
+    display: table;
+    margin: 0 auto;
+    font-size: calc(10px + 1vw);
+  }
+  .md-note p{
+    font-size: calc(6px + 1vw);
+  }
+  .popup-form{
+    width: 80%;
+  }
+  .popup-form p{
+    font-size: calc(15px + 3vw);
+  }
+  .popup-form a{
+    font-size: calc(10px + 1vw);
+  }
+  .page-2 .md-title p{
+    font-size: calc(10px + 1vw);
+  }
+  .page-2 .md-content a{
+    font-size: calc(10px + 1vw);
   }
 }
