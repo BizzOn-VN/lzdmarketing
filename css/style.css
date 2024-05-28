@@ -172,7 +172,7 @@ input[type=submit] {
 
 .page-3 .md-title h6{
   font-size: calc(7px + 2vw);
-
+  text-align: center;
 }
 .page-3 .md-content{
   width: 80%;
@@ -221,7 +221,7 @@ input[type=submit] {
 .page-3 .md-content form input[type='button']{
   background: #e6eaed;
   border-radius: 10px;
-  padding: 4px 15px 2px;
+  padding: 4px 20px 2px;
   box-shadow: -2px -2px 4px 1px rgba(255,255,255,1);
   border: none;
   color:  #fe0166;
