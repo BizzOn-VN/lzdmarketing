@@ -216,7 +216,7 @@ input[type=submit] {
   color: #FFF;
   font-family: 'EuclidCircularAVN-Light';
   font-style: italic;
-  font-size: calc(4px + 1vw);
+  font-size: calc(4px + 0.6vw);
 }
 .page-3 .md-content form input[type='button']{
   background: #e6eaed;
@@ -299,7 +299,7 @@ input[type=submit] {
     padding: 0px 10%;
   }
   .page-3 .md-content form input[type="email"]::placeholder{
-    font-size: calc(10px + 1vw);
+    font-size: calc(8px + 0.6vw);
   }
   .page-3 .md-content form input[type="email"]{
     font-size: calc(10px + 1vw);
