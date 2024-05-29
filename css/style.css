@@ -132,16 +132,16 @@ input[type=submit] {
 .md-content a{
   background: #e6eaed;
   border-radius: 10px;
-  padding: 7px 15px 5px;
+  padding: 5px 15px 4px;
   display: table;
   margin: 0 auto;
-  line-height: 1;
+/*  line-height: 1;*/
   font-family: 'EuclidCircularAVN-Bold';
   font-style: italic;
   margin-top: 30px;
   width: 60%;
   text-align: center;
-  box-shadow: -2px -2px 4px 1px rgba(255,255,255,1);
+  box-shadow: -2px -2px 3px 1px rgba(255,255,255,1);
 }
 .md-content .right-content a{
   color: #fe0166;
@@ -229,7 +229,7 @@ input[type=submit] {
   background: #e6eaed;
   border-radius: 10px;
   padding: 4px 20px 2px;
-  box-shadow: -2px -2px 4px 1px rgba(255,255,255,1);
+  box-shadow: -2px -2px 3px 1px rgba(255,255,255,1);
   border: none;
   color:  #fe0166;
   font-family: 'EuclidCircularAVN-Bold';
@@ -274,7 +274,7 @@ input[type=submit] {
   margin-top: 30px;
   width: 60%;
   text-align: center;
-  box-shadow: -2px -2px 4px 1px rgba(255,255,255,1);
+  box-shadow: -2px -2px 3px 1px rgba(255,255,255,1);
   color: #fe0166;
   font-size: calc(4px + 1vw);
 }
