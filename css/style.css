@@ -101,6 +101,7 @@ input[type=submit] {
 .body-1 .md-title{
   animation: bounceIn 2s;
 }
+
 .md-title h3{
   color: #FFF;
   font-family: 'EuclidCircularAVN-Bold';
@@ -279,6 +280,9 @@ input[type=submit] {
   font-size: calc(4px + 1vw);
 }
 @media screen and (max-width: 767px){
+  .body-1 .md-title h3 span{
+    display: block;
+  }
   .page-main{
     height: 100vh;
   }
