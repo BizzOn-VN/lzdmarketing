@@ -307,7 +307,7 @@ input[type=submit] {
     display: block;
   }
   .page-main{
-    height: 100vh;
+    height: calc(100vh - 20px);
   }
   .page-main .md-title h3{
     text-align: left;
