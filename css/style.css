@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: calc(12px + 1vw);
   font-family: 'EuclidCircularAVN-Regular';
-  color: #111111;
+  color: #FFF;
   line-height: 1.5;
   background: #FFF;
 }
@@ -382,7 +382,7 @@ input[type=submit] {
   .md-note p{
     font-size: calc(6px + 1vw);
     position: absolute;
-    bottom: 3%;
+    bottom: 7%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
