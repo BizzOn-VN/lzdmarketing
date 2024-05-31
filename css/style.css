@@ -284,27 +284,23 @@ input[type=submit] {
     line-height: 1.2;
   }
   .page-3 .md-content form{
-    width: 60%;
-    display: table;
-    margin: 0 auto;
+    width: 76%;
+    padding-left: 24.5%;
   }
   .page-3 .md-content{
     width: 100%;
   }
   .page-3 .md-title{
     padding-top: 20vh;
-    padding-left: 20%;
+    padding-left: 0px;
     margin-bottom: 1vh;
+    display: table;
+    margin: 0px auto 1vh auto;
   }
-  .page-3 .md-title h3{
-    text-align: left;
-  }
-  .page-3 .md-title p{
-    text-align: left;
-  }
+
   .page-3 .md-title h6{
     text-align: left;
-    padding-left: 7%;
+    padding-left: 10%;
     margin-bottom: 6vh;
     font-size: calc(10px + 2.5vw);
   }
@@ -340,9 +336,10 @@ input[type=submit] {
     width: 60%;
   }
   .page-3 .md-content p{
-    padding-left: 17%;
-    font-size: calc(10px + 3vw);
+    font-size: calc(5px + 3vw);
     margin-bottom: 5vh;
+    text-align: left;
+    padding-left: 24.5%;
   }
   .md-title h3{
     font-size: calc(10px + 5vw);
@@ -355,7 +352,7 @@ input[type=submit] {
   .page-3 .md-title p{
     display: inline-block;
     margin-top: -20px;
-    font-size: calc(10px + 3vw);
+    font-size: calc(13px + 3vw);
   }
   .md-note{
     position: absolute;
@@ -368,6 +365,14 @@ input[type=submit] {
   .md-content a{
     width: 25%;
     font-size: calc(4px + 1vw);
+  }
+  .page-3 .md-title h3{
+    text-align: left;
+    display: block;
+  }
+  .page-3 .md-title p{
+    text-align: center;
+    display: block;
   }
 }
 .popup-form{
@@ -610,5 +615,18 @@ input[type=submit] {
   }
   .md-desktop{
     display: none;
+  }
+}
+
+@media screen and (min-width: 1900px){
+  .page-3 .md-title p{
+    font-size: calc(15px + 3vw);
+  }
+  .page-3 .md-content p{
+    padding-left: 25%;
+  }
+  .page-3 .md-content form{
+    padding-left: 25%;
+    width: 75%;
   }
 }
