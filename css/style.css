@@ -308,11 +308,11 @@ input[type=submit] {
     right: 34%;
     top: 4%;
   }
-  .page-3 .md-content form input[type="email"]{
+  .page-3 .md-content .md-col-1{
     width: 80%;
     float: left;
   }
-  .page-3 .md-content form input[type='button']{
+  .page-3 .md-content .md-col-2{
     width: 15%;
     float: right;
   }
