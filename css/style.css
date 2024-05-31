@@ -264,6 +264,13 @@ input[type=submit] {
   font-size: calc(4px + 0.6vw);
   text-align: right;
   font-style: italic;
+  margin-bottom: 5px;
+}
+.md-note a{
+  color: #FFF;
+  font-size: calc(4px + 0.6vw);
+  float: right;
+  text-decoration: underline;
 }
 @media screen and (min-width: 768px){
   .page-2 .md-title{
@@ -350,10 +357,10 @@ input[type=submit] {
     margin-top: -20px;
     font-size: calc(10px + 3vw);
   }
-  .md-note p{
+  .md-note{
     position: absolute;
     right: 10%;
-    bottom: 3%;
+    bottom: 1%;
   }
   .md-content img{
     width: 25%;
@@ -466,14 +473,23 @@ input[type=submit] {
     margin: 15px 0px 0px 0px;
     font-size: calc(10px + 1vw);
   }
-  .md-note p{
-    font-size: calc(6px + 0.8vw);
+  .md-note{
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+  }
+  .md-note p{
+    font-size: calc(6px + 0.8vw);
+    
     text-align: center;
+  }
+  .md-note a{
+    text-align: center;
+    float: none;
+    display: block;
+        font-size: calc(6px + 0.8vw);
   }
   .popup-form{
     width: 80%;
