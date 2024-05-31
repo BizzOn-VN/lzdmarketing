@@ -382,7 +382,7 @@ input[type=submit] {
   .md-note p{
     font-size: calc(6px + 1vw);
     position: absolute;
-    bottom: 7%;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;

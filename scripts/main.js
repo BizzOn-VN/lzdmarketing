@@ -26,4 +26,6 @@ jQuery(document).on("ready",function () {
 
 new WOW().init();
 
-$('.page-scroll').animate({scrollTop: document.body.scrollHeight},"fast");
+$('html, body').animate({
+   scrollTop: $('.md-scroll').offset().top
+}, 'fast');
