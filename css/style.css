@@ -113,7 +113,6 @@ input[type=submit] {
   background: #fe0166;
 }
 .md-title{
-  padding-left: 10%;
   padding-top: 13vh;
   margin-bottom: 10vh;
   
@@ -126,16 +125,10 @@ input[type=submit] {
   color: #FFF;
   font-family: 'EuclidCircularAVN-Bold';
   font-size: calc(20px + 8vw);
-  line-height: 1.4;
+  line-height: 1.2;
   text-align: center;
 }
-.md-title p{
-  color: #FFF;
-  background: #000;
-  border-radius: 10px;
-  display: inline-block;
-  padding: 3px 10px 0px 10px;
-}
+
 .md-title h6{
   color: #FFF;
   font-size: calc(15px + 2vw);
@@ -153,10 +146,10 @@ input[type=submit] {
 .md-content a{
   background: #e6eaed;
   border-radius: 10px;
-  padding: 5px 15px 4px;
+  padding: 8px 15px 4px;
   display: table;
   margin: 0 auto;
-/*  line-height: 1;*/
+  line-height: 1;
   font-family: 'EuclidCircularAVN-Bold';
   font-style: italic;
   margin-top: 30px;
@@ -192,7 +185,8 @@ input[type=submit] {
   width: 25%;
   display: table;
   margin-left: 10%;
-  color: #ff6600;
+  color: #fff;
+  background: #fe0166;
   margin: 0 auto;
   text-align: center;
 }
@@ -201,6 +195,17 @@ input[type=submit] {
 .page-3 .md-title h6{
   font-size: calc(7px + 2vw);
   text-align: center;
+  margin-bottom: 20px;
+}
+.page-3 .md-title h3{
+  margin-bottom: 0px;
+}
+.page-3 .md-title p{
+  font-size: calc(7px + 1.5vw);
+  text-align: center;
+  color: #FFF;
+  font-weight: 600;
+  margin-top: -10px;
 }
 .page-3 .md-content{
   width: 80%;
@@ -213,6 +218,7 @@ input[type=submit] {
   float: left;
   width: 30%;
   margin-bottom: 0px;
+  line-height: 1.2;
 }
 .page-3 .md-content img{
   width: 50%;
@@ -249,7 +255,7 @@ input[type=submit] {
 .page-3 .md-content form input[type='button']{
   background: #e6eaed;
   border-radius: 10px;
-  padding: 4px 20px 2px;
+  padding: 8px 20px 4px;
   box-shadow: -2px -2px 3px 1px rgba(255,255,255,1);
   border: none;
   color:  #fe0166;
@@ -257,6 +263,7 @@ input[type=submit] {
   font-style: italic;
   font-size: calc(4px + 1vw);
   margin-top: 15px;
+  line-height: 1;
 }
 .md-note p{
   color: #FFF;
@@ -300,20 +307,34 @@ input[type=submit] {
   font-size: calc(4px + 1vw);
 }
 @media screen and (max-width: 767px){
+  .md-title{
+    padding-left: 10%;
+  }
   .md-title h3{
     font-size: calc(20px + 7vw);
+  }
+  .page-3 .md-title h3{
+    font-size: calc(20px + 10vw);
   }
   .body-1 .md-title h3 span{
     display: block;
   }
+  .md-content a{
+    font-size: calc(10px + 1vw);
+  }
   .page-main{
     height: 100vh;
+  }
+  .md-content img{
+    margin-left: 12%;
+    display: block;
+    width: 55%;
   }
   .page-main .md-title h3{
     text-align: left;
   }
   .page-2 .md-content a{
-    width: 50%;
+    width: 40%;
   }
   .page-2 .md-title h3{
     text-align: left;
@@ -338,8 +359,12 @@ input[type=submit] {
   .page-3 .md-title h3{
     text-align: left;
   }
+  .page-3 .md-title p{
+    text-align: left;
+    font-size: calc(10px + 2vw);
+  }
   .page-3 .md-title h6{
-    font-size: calc(10px + 3vw);
+    font-size: calc(10px + 4vw);
     text-align: left;
     line-height: 1.2;
   }
@@ -356,9 +381,12 @@ input[type=submit] {
   }
   .md-note p{
     font-size: calc(6px + 1vw);
-    margin-right: 0px;
-    margin-left: 10%;
-    text-align: left;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
   }
   .popup-form{
     width: 80%;
