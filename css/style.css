@@ -87,7 +87,7 @@ input[type=submit] {
   position: absolute;
   right: 20%;
   top: 10%;
-  width: 10%;
+  width: 12%;
 }
 .ico-2{
   position: absolute;
@@ -300,13 +300,13 @@ input[type=submit] {
 
   .page-3 .md-title h6{
     text-align: left;
-    padding-left: 10%;
+    padding-left: 13%;
     margin-bottom: 6vh;
     font-size: calc(10px + 2.5vw);
   }
   .ico-3{
-    right: 37%;
-    top: 7%;
+    right: 34%;
+    top: 4%;
   }
   .page-3 .md-content form input[type="email"]{
     width: 80%;
@@ -352,7 +352,7 @@ input[type=submit] {
   .page-3 .md-title p{
     display: inline-block;
     margin-top: -20px;
-    font-size: calc(13px + 3vw);
+    font-size: calc(12px + 3vw);
   }
   .md-note{
     position: absolute;
