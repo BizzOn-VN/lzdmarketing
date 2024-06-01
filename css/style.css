@@ -344,6 +344,13 @@ input[type=submit] {
   .md-title h3{
     font-size: calc(10px + 5vw);
   }
+  .body-1 .md-title h3{
+    font-size: calc(10px + 4vw);
+  }
+  .body-1 .md-title{
+    padding-top: 10vh;
+    margin-bottom: 7vh;
+  }
   .page-3 .md-title h3{
     font-size: calc(10px + 10vw);
     line-height: 1;
