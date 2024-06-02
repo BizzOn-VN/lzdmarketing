@@ -656,3 +656,11 @@ input[type=submit] {
     margin-top: -10px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 900px){
+  .page-3 .md-content p{
+    padding-left: 22.5%;
+  }
+  .page-3 .md-content form{
+    padding-left: 22.5%;
+  }
+}
