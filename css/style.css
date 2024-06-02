@@ -637,3 +637,22 @@ input[type=submit] {
     width: 75%;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1300px){
+  .ico-3{
+    right: 26%;
+    top: 13%;
+    width: 16%;
+  }
+  .page-3 .md-content p{
+    padding-left: 24%;
+    font-size: calc(4px + 3vw);
+  }
+  .page-3 .md-content form{
+    padding-left: 24%;
+  }
+  .page-3 .md-title p{
+    font-size: calc(10px + 3vw);
+    margin-top: -10px;
+  }
+}
