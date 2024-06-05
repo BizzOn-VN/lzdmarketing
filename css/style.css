@@ -387,6 +387,10 @@ input[type=submit] {
     text-align: center;
     display: block;
   }
+  .page-3 .md-content a{
+    width: auto;
+    padding: 8px 20px;
+  }
 }
 .popup-form{
   display: none;
@@ -411,6 +415,7 @@ input[type=submit] {
   color: #fe0166;
   font-size: calc(4px + 1vw);
 }
+
 @media screen and (max-width: 767px){
   .md-title{
     padding-left: 10%;
@@ -633,6 +638,7 @@ input[type=submit] {
     display: none;
   }
 }
+
 
 @media screen and (min-width: 1900px){
   .page-3 .md-title p{
