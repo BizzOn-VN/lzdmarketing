@@ -222,7 +222,9 @@ input[type=submit] {
   width: 50%;
   display: inline-block;
 }
-
+.page-3 .md-content a{
+  color: #e93368;
+}
 .page-3 .md-content form input[type="email"]{
   width: 100%;
   border: 0.5px solid #FFF;
@@ -265,6 +267,10 @@ input[type=submit] {
   text-align: right;
   font-style: italic;
   margin-bottom: 5px;
+}
+.md-note p a{
+  display: inline-block;
+  padding-right: 0%;
 }
 .md-note a{
   color: #FFF;
@@ -359,7 +365,7 @@ input[type=submit] {
   .page-3 .md-title p{
     display: inline-block;
     margin-top: -20px;
-    font-size: calc(12px + 3vw);
+    font-size: calc(10px + 2.5vw);
   }
   .md-note{
     position: absolute;
@@ -494,11 +500,11 @@ input[type=submit] {
   }
   .md-note p{
     font-size: calc(6px + 0.8vw);
-    
-    text-align: center;
+    padding-right: 5%;
   }
   .md-note a{
-    text-align: center;
+    text-align: right;
+    padding-right: 5%;
     float: none;
     display: block;
         font-size: calc(6px + 0.8vw);
@@ -540,6 +546,9 @@ input[type=submit] {
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
+  }
+  .page-3 .md-content a{
+    display: inline-block;
   }
 }
 
@@ -627,7 +636,7 @@ input[type=submit] {
 
 @media screen and (min-width: 1900px){
   .page-3 .md-title p{
-    font-size: calc(15px + 3vw);
+    font-size: calc(13px + 2.5vw);
   }
   .page-3 .md-content p{
     padding-left: 25%;
@@ -652,7 +661,7 @@ input[type=submit] {
     padding-left: 24%;
   }
   .page-3 .md-title p{
-    font-size: calc(10px + 3vw);
+    font-size: calc(8px + 2.5vw);
     margin-top: -10px;
   }
 }
