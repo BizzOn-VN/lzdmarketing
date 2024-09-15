@@ -53,7 +53,7 @@ $(document).mousedown(function(e)
     }
 });
 function custom_footer(){
-	if(($(".page-main").height()+ $(".page-footer").height() + $(".page-header").height())<$(window).height()){
+	if(($(".page-main").height()+ $(".page-footer").height() + $(".page-header").height() +200)<$(window).height()){
 		$(".page-footer").addClass("sticky")
 	}else{
 		$(".page-footer").removeClass("sticky")

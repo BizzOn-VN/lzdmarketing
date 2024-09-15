@@ -7,6 +7,10 @@
   src: url(../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.woff2) format("woff2"), url(../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.eot) format("eot"), url(../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.ttf) format("ttf"), url(../fonts/SFProDisplay-Semibold/SFProDisplay-Semibold.woff) format("woff");
 }
 @font-face {
+  font-family: "HeadingNow-57Extrabold";
+  src: url(../fonts/HeadingNow-57Extrabold/HeadingNow-57Extrabold.woff2) format("woff2"), url(../fonts/HeadingNow-57Extrabold/HeadingNow-57Extrabold.eot) format("eot"), url(../fonts/HeadingNow-57Extrabold/HeadingNow-57Extrabold.ttf) format("ttf"), url(../fonts/HeadingNow-57Extrabold/HeadingNow-57Extrabold.woff) format("woff");
+}
+@font-face {
   font-family: "EuclidCircularAVN-MediumItalic";
   src: url(../fonts/EuclidCircularAVN-MediumItalic/EuclidCircularAVN-MediumItalic.woff2) format("woff2"), url(../fonts/EuclidCircularAVN-MediumItalic/EuclidCircularAVN-MediumItalic.eot) format("eot"), url(../fonts/EuclidCircularAVN-MediumItalic/EuclidCircularAVN-MediumItalic.ttf) format("ttf"), url(../fonts/EuclidCircularAVN-MediumItalic/EuclidCircularAVN-MediumItalic.woff) format("woff");
 }
@@ -202,7 +206,7 @@ body {
   margin: 0 auto;
 }
 .form-email form h2.title {
-  font-family: "SFProDisplay-Semibold";
+  font-family: "HeadingNow-57Extrabold";
   font-size: 3.3vw;
   text-align: center;
   margin: 0 0 0.5em;
@@ -237,7 +241,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .form-email form h2.title {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .form-email form .inp-email {
     width: 80vw;
