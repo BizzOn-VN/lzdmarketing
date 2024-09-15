@@ -1,0 +1,17 @@
+/* header
+ -----------------------------------------------------*/
+.page-header {
+  background: #FFF;
+  overflow: hidden;
+}
+.page-header .logo {
+  display: table;
+  margin: 0.5vw auto;
+  width: 27%;
+}
+.page-header .logo a {
+  display: block;
+}
+.page-header .logo a img {
+  width: 100%;
+}

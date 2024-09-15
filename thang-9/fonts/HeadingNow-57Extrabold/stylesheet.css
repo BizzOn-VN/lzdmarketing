@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'HeadingNow-57Extrabold';
+    src: url('HeadingNow-57Extrabold.eot');
+    src: url('HeadingNow-57Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('HeadingNow-57Extrabold.woff2') format('woff2'),
+        url('HeadingNow-57Extrabold.woff') format('woff'),
+        url('HeadingNow-57Extrabold.ttf') format('truetype'),
+        url('HeadingNow-57Extrabold.svg#HeadingNow-57Extrabold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
