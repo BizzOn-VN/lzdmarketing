@@ -1,0 +1,123 @@
+/* home
+ -----------------------------------------------------*/
+body {
+  position: relative;
+  background: #ff0068;
+}
+
+.page-main {
+  overflow: hidden;
+}
+
+.blk-banner img {
+  width: 100%;
+}
+
+.blk-gr {
+  background: #ff0068;
+  padding: 2em 0 0;
+}
+
+.blk-slider {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 1em;
+}
+.blk-slider .slider {
+  padding-bottom: 1em;
+}
+.blk-slider .slider .slick-track {
+  padding: 3vw 0;
+}
+.blk-slider .slider .item {
+  padding: 0 0em;
+}
+.blk-slider .slider .item img {
+  -webkit-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+       -o-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.blk-slider .slider .item.slick-current img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+       -o-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.blk-slider .slider .slick-dots li {
+  margin: 0 0em;
+}
+.blk-slider .slider .slick-dots li button {
+  background: #ff99c3;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+}
+.blk-slider .slider .slick-dots li button:before {
+  display: none;
+}
+.blk-slider .slider .slick-dots li.slick-active button {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+       -o-transform: scale(1.5);
+          transform: scale(1.5);
+  background: #FFF;
+}
+.blk-slider .slider .slick-dots li.slick-active button:before {
+  color: #FFF;
+}
+.blk-slider .slider img {
+  width: 100%;
+}
+
+.form-email form {
+  display: table;
+  margin: 0 auto;
+}
+.form-email form h2.title {
+  font-family: "SFProDisplay-Semibold";
+  font-size: 3.3vw;
+  text-align: center;
+  margin: 0 0 0.5em;
+  color: #FFF;
+}
+.form-email form .inp-email {
+  color: #FFF;
+  border: 1px solid #FFF;
+  width: 60vw;
+  padding: 1vw 1vw 1vw 3vw;
+  font-size: 2vw;
+  background: #ff0068;
+  border-radius: 5em;
+  margin: 0 0 1.2em;
+}
+.form-email form .inp-email.has-bg {
+  background: url(../images/bg-input.png) no-repeat center center #ff0068;
+  -webkit-background-size: 90% 90%;
+          background-size: 90%;
+}
+.form-email form .btn-submit {
+  outline: none;
+  border: none;
+  background: none;
+  border-radius: 5em;
+  display: table;
+  margin: 0 auto;
+  width: 17vw;
+}
+.form-email form .btn-submit img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .form-email form h2.title {
+    font-size: 4vw;
+  }
+  .form-email form .inp-email {
+    width: 80vw;
+    padding: 3vw 1vw 3vw 3vw;
+    margin: 0 0 3em;
+  }
+  .form-email form .btn-submit {
+    width: 22vw;
+  }
+}
